@@ -1,3 +1,15 @@
+/* Quitar barra lateral de navegacion */
+html {
+    scrollbar-width: none;      /* Firefox */
+    -ms-overflow-style: none;   /* IE y Edge */
+}
+
+html::-webkit-scrollbar {
+    display: none;              /* Chrome, Safari y Opera */
+}
+
+/* Estilos documente */
 body {
     font-family: system-ui;
+    background: linear-gradient(120deg, #f0f0f0 0%, #d6d6d6 100%);
 }
