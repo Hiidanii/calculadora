@@ -1,0 +1,25 @@
+#principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#calculadora {
+    width: 300x;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #cacaca;
+    background-color: #f0f0f0;
+}
+
+.pantalla {
+    background-color: #fff;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 48px;
+    border: 2px solid #cacaca;
+    border-radius: 5px;
+}
